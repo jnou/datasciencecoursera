@@ -1,10 +1,12 @@
 
 ###
+### runanalysis.R script
+###
 ### To work this script must be executed in the directory "UCI HAR Dataset"
 ### created by the zip file of the downloaded data set
 ###
 
-
+{
 ###
 ###   Load libraries needed
 ###
@@ -170,7 +172,7 @@ order by activity, subject ;" )
 ###
 
 write.table(TIDY_DF, "tidy_df.txt")
-
+}
 
 
 
